@@ -33,7 +33,7 @@ const solution = (N) => {
         }
     }
     
-    // Filter through answerArr
+    // Map through answerArr
     answerArr.map(arr => {
         if (arr.length > answer) {
             // If the length is bigger than the previous length then replace it for the final answer
